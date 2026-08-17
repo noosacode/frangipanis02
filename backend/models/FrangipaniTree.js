@@ -70,8 +70,8 @@ const frangipaniTreeSchema = new mongoose.Schema(
     notes: String,
   },
   {
-    collection: "frangipanitrees",
+    collection: "frangipanicollections",
   },
 );
 
-module.exports = mongoose.model("FrangipaniTree", frangipaniTreeSchema);
+module.exports = mongoose.model("FrangipaniCollection", frangipaniTreeSchema);
